@@ -38,7 +38,7 @@ window.logout = function () {
   signOut(auth)
     .then(() => {
       // Sign-out successful.
-      window.location.replace("login.html");
+      window.location.replace("index.html");
     })
     .catch((error) => {
       // An error happened.

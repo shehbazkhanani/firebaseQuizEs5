@@ -49,7 +49,7 @@ window.UserCheck = function () {
         } else {
           // User is signed out
           // ...
-          window.location.replace('login.html')
+          window.location.replace('index.html')
         }
       });
 }
@@ -140,7 +140,7 @@ window.SubmitArray = function () {
 window.logout = function () {
     signOut(auth).then(() => {
         // Sign-out successful.
-        window.location.replace('login.html')
+        window.location.replace('index.html')
       }).catch((error) => {
         // An error happened.
         alert(error)
